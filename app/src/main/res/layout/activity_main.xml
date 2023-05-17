@@ -48,24 +48,24 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="93dp"
                 android:layout_height="82dp"
-                android:text="@string/num"
-                android:textSize="22sp"
+                android:text="C"
+                android:textSize="28sp"
                 android:id="@+id/button_c"
                 android:layout_margin="4dp" />
 
             <com.google.android.material.button.MaterialButton
                 android:layout_width="93dp"
                 android:layout_height="82dp"
-                android:text="/"
+                android:text="("
                 android:textSize="32sp"
-                android:id="@+id/button_divide"
+                android:id="@+id/left_bracket"
                 android:layout_margin="4dp"/>
             <com.google.android.material.button.MaterialButton
                 android:layout_width="93dp"
                 android:layout_height="82dp"
-                android:text="*"
+                android:text=")"
                 android:textSize="36sp"
-                android:id="@+id/button_multiplication"
+                android:id="@+id/right_bracket"
                 android:layout_margin="4dp"/>
             <com.google.android.material.button.MaterialButton
                 android:layout_width="93dp"
@@ -148,9 +148,9 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="93dp"
                 android:layout_height="82dp"
-                android:text="%"
+                android:text="*"
                 android:textSize="32sp"
-                android:id="@+id/button_percent"
+                android:id="@+id/button_multiply"
                 android:layout_margin="4dp"/>
 
 
@@ -188,9 +188,9 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="93dp"
                 android:layout_height="82dp"
-                android:text="%"
+                android:text="/"
                 android:textSize="32sp"
-                android:id="@+id/button_p"
+                android:id="@+id/button_divide"
                 android:layout_margin="4dp"/>
 
 
