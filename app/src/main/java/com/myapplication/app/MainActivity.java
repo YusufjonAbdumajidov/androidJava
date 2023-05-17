@@ -3,11 +3,12 @@ package com.myapplication.app;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.google.android.material.button.MaterialButton;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     TextView resultTv, solutionTv;
     MaterialButton buttonC, buttonBrackOpen, buttonBrackClose;
@@ -20,5 +21,37 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        resultTv = findViewById(R.id.result_tv);
+        solutionTv = findViewById(R.id.solution_tv);
+
+        assignId(buttonC, R.id.button_c);
+        assignId(buttonBrackOpen, R.id.left_bracket);
+        assignId(buttonBrackClose, R.id.right_bracket);
+        assignId(buttonDivide, R.id.button_divide);
+        assignId(buttonMultiply, R.id.button_multiply);
+        assignId(buttonPlus, R.id.button_plus);
+        assignId(buttonMinus, R.id.button_minus);
+        assignId(buttonEquals, R.id.button_equal);
+        assignId(button0, R.id.button_zero);
+        assignId(button1, R.id.button_one);
+        assignId(button2, R.id.button_two);
+        assignId(button3, R.id.button_three);
+        assignId(button4, R.id.button_four);
+        assignId(button5, R.id.button_five);
+        assignId(button6, R.id.button_six);
+        assignId(button7, R.id.button_seven);
+        assignId(button8, R.id.button_eight);
+        assignId(button9, R.id.button_nine);
+        assignId(buttonDot, R.id.button_dot);
+    }
+
+    void assignId(MaterialButton btn, int id){
+        btn = findViewById(id);
+        btn.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View view) {
+
     }
 }
