@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         solutionTv = findViewById(R.id.solution_tv);
         calculator = new Calculator();
 
-        // Initialize and set click listeners for the buttons
+
         MaterialButton buttonC = findViewById(R.id.button_c);
         buttonC.setOnClickListener(this);
 

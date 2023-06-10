@@ -50,7 +50,8 @@
                 android:text="@string/ac"
                 android:textSize="32sp"
                 android:id="@+id/clear"
-                android:layout_margin="4dp" />
+                android:layout_margin="4dp"
+                android:backgroundTint="#FF0000"/>
 
             <com.google.android.material.button.MaterialButton
                 android:layout_width="93dp"
