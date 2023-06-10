@@ -47,7 +47,7 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="193dp"
                 android:layout_height="82dp"
-                android:text="AC"
+                android:text="@string/ac"
                 android:textSize="32sp"
                 android:id="@+id/clear"
                 android:layout_margin="4dp" />

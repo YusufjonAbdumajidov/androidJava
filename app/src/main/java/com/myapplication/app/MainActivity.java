@@ -111,6 +111,8 @@ import android.widget.TextView;
 
 import com.google.android.material.button.MaterialButton;
 
+
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     TextView resultTv, solutionTv;
@@ -128,7 +130,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         MaterialButton buttonC = findViewById(R.id.button_c);
         buttonC.setOnClickListener(this);
 
-
+        MaterialButton buttonClear = findViewById(R.id.clear);
+        buttonClear.setOnClickListener(this);
 
 
         MaterialButton button0 = findViewById(R.id.button_zero);
