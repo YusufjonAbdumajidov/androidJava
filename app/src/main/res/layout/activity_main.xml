@@ -45,6 +45,14 @@
             android:layout_marginBottom="-12dp">
 
             <com.google.android.material.button.MaterialButton
+                android:layout_width="193dp"
+                android:layout_height="82dp"
+                android:text="AC"
+                android:textSize="32sp"
+                android:id="@+id/clear"
+                android:layout_margin="4dp" />
+
+            <com.google.android.material.button.MaterialButton
                 android:layout_width="93dp"
                 android:layout_height="82dp"
                 android:text="C"
@@ -52,20 +60,6 @@
                 android:id="@+id/button_c"
                 android:layout_margin="4dp" />
 
-            <com.google.android.material.button.MaterialButton
-                android:layout_width="93dp"
-                android:layout_height="82dp"
-                android:text="("
-                android:textSize="32sp"
-                android:id="@+id/left_bracket"
-                android:layout_margin="4dp"/>
-            <com.google.android.material.button.MaterialButton
-                android:layout_width="93dp"
-                android:layout_height="82dp"
-                android:text=")"
-                android:textSize="36sp"
-                android:id="@+id/right_bracket"
-                android:layout_margin="4dp"/>
             <com.google.android.material.button.MaterialButton
                 android:layout_width="93dp"
                 android:layout_height="82dp"

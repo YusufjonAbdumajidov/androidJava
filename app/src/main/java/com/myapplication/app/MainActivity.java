@@ -128,10 +128,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         MaterialButton buttonC = findViewById(R.id.button_c);
         buttonC.setOnClickListener(this);
 
-        MaterialButton buttonBrackOpen = findViewById(R.id.left_bracket);
-        buttonBrackOpen.setOnClickListener(this);
 
-        // ... initialize and set click listeners for other buttons ...
+
+
         MaterialButton button0 = findViewById(R.id.button_zero);
         button0.setOnClickListener(this);
 
