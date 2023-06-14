@@ -79,6 +79,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //
         MaterialButton buttonEquals = findViewById(R.id.button_equal);
         buttonEquals.setOnClickListener(this);
+
+
     }
 
     @Override
@@ -111,3 +113,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 }
+
